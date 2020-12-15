@@ -1,9 +1,5 @@
 # Evaluating the Empirical Performance of S&P 500 Returns on Various Machine Learning Algorithms to beat the Unconditional Mean of Returns
 
-![alt text](markus-spiske-5gGcn2PRrtc-unsplash-2.jpg)
-
-**Evaluating the Empirical Performance of S&P 500 Returns on Various Machine Learning Algorithms to beat the Unconditional Mean of Returns.**
-
 **Goal of Project:** Attempt to predict the S&P500 Index using macroeconomics variables and fundamental indicators.
 
 **Dependent Variable:** Returns on S&P500 
