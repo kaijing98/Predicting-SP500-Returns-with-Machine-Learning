@@ -1,14 +1,8 @@
-# Evaluating the Empirical Performance of S&P 500 Returns on Various Machine Learning Algorithms to beat the Conditional Mean of Returns
+# Evaluating the Empirical Performance of S&P 500 Returns on Various Machine Learning Algorithms to beat the Unconditional Mean of Returns
 
 ![alt text](markus-spiske-5gGcn2PRrtc-unsplash-2.jpg)
 
-**Evaluating the Empirical Performance of S&P 500 Returns on Various Machine Learning Algorithms to beat the Conditional Mean of Returns.**
-
-We are a group of students from National University of Singapore (NUS). This project is completed under the guidance of *Prof. Denis Tkachenko*. We greatly appreciate the guidance and teachings that were kindly extended by Prof. Denis. It has been a wonderful experience and a tremendous opportunity to practice all that we have learned. 
-
-**Project Members:** Adeline Andikko (A0173725B), Chen Jingxuan (A0159758H), Tuan Ding Wei (A0168124H), Xu Kai Jing (A0172283E)
-
-**Project Title:** Evaluating the Empirical Performance of S&P 500 Returns on Various Machine Learning Algorithms to beat the Conditional Mean of Returns.
+**Evaluating the Empirical Performance of S&P 500 Returns on Various Machine Learning Algorithms to beat the Unconditional Mean of Returns.**
 
 **Goal of Project:** Attempt to predict the S&P500 Index using macroeconomics variables and fundamental indicators.
 
@@ -31,9 +25,10 @@ Method 2: Recursive CV
   * Elastic Net
   * Boosted Regression Tree
   * Neural Network 
+  * Sentiment Analysis
 
-**Beat the Conditional Mean**
-Beat the MSE of conditional mean as the predictor
+**Beat the Unconditional Mean**
+Beat the MSE of unconditional mean as the predictor
 
 **Predicting the Direction of S&P500 Index**
 Compare the proportion of cases where the sign of equity premium is forecasted correctly compared to the proportion of cases where the sign is incorrect. Direction is more important in practice than getting the value exact (and hence not so much about MSE) because traders most of the time care whether the excess return on the stock is positive or negative when we make portfolio decisions. The natural benchmark here is a coin toss (50% probability of guessing right) – so if some model predicts the sign much better than this, it may be most useful even if it may not have the lowest MSE.
